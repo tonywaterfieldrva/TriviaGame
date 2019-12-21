@@ -1,6 +1,7 @@
 body {
-	background: url("../images/doggie_background.jpg");
-	background-size: cover;
+	background: url("../images/white_background.jpg");
+	background-size: 75%;
+
 	font-size: 20px;
 	line-height: 34px;
 	color: white;

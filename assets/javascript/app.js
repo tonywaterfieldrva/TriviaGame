@@ -78,6 +78,12 @@ $(document).ready(function(){
                 else { 
                   wrongGuesses++;
                 }  
+                $('input[name="q1"]').attr('checked', false);
+                $('input[name="q2"]').attr('checked', false);
+                $('input[name="q3"]').attr('checked', false);
+                $('input[name="q4"]').attr('checked', false);
+                $('input[name="q5"]').attr('checked', false);
+
                 console.log("Right: " , rightGuesses);
                 console.log("Wrong: " , wrongGuesses);
                 $("#results").html("<h2>" + "Results: " + rightGuesses + " Right / " + wrongGuesses + " Wrong " + "</h2>" );
