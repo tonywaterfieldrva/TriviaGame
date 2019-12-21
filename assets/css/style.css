@@ -1,0 +1,79 @@
+body {
+	background: url("../images/doggie_background.jpg");
+	font-size: 20px;
+	line-height: 34px;
+	color: white;
+	font-family: 'Lakki Reddy', cursive;
+}
+* {
+	box-sizing: border-box;
+}
+
+header, footer, section {
+	width: 75%;
+	margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+	font-family: 'Lakki Reddy', cursive;
+	border-style: solid;
+	border-width: 4px;
+	border-color: white;
+	border-radius: 10px;
+	background-image: url("../images/bone.png");
+	background-image: stretch;
+}
+header, footer {
+	background-color: navy; */
+	height: 100px;
+	background-image: url("../images/bone.png");
+	
+}
+
+header h1 {
+	padding: 20px;
+	font-size: 40px;
+	font-family: 'Lakki Reddy', cursive;
+}
+h2 {
+	font-size: 30px;
+}
+ul {
+	text-align: auto;
+}
+
+.main-section {
+    background-color: navy;
+    color: #fff;
+    opacity: 0.9;
+}
+button {
+	background-color: red;
+	width: 100px;
+	height: 40px;
+	margin-top: 5px;
+	opacity: .9;
+	color: white;
+	font-weight: bold;
+	font-family: 'Lakki Reddy', cursive;
+}
+.question, .answers {
+	width: 50%;
+	margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+#submit, #results, #restart, .question, .answers {
+	display: none;
+}
+
+.directions {
+	font-size: 20px;
+	font-style: bold;
+	font-weight: bold;
+}
+
+footer {
+	clear: both;
+	padding: 20px;
+	font-style: bold;
+}
